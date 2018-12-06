@@ -1,0 +1,26 @@
+@mixin placeholder {
+  ::-webkit-input-placeholder { @content; }
+  ::-moz-placeholder { @content; }
+  :-moz-placeholder { @content; }
+  :-ms-input-placeholder { @content; }
+}
+
+@mixin micro {
+  @media screen and (min-width: $breakpointMicro) { @content; }
+}
+
+@mixin mini {
+  @media screen and (min-width: $breakpointMini) { @content; }
+}
+
+@mixin small {
+  @media screen and (min-width: $breakpointSmall) { @content; }
+}
+
+@mixin maxSmall {
+  @media screen and (max-width: $breakpointSmall) { @content; }
+}
+
+@mixin medium {
+  @media screen and (min-width: $breakpointMedium) { @content; }
+}

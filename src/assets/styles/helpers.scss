@@ -1,0 +1,67 @@
+@import '@/assets/styles/variables.scss';
+
+.fill-parent {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.button-reset {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.color-text {
+  color: $colorText;
+}
+
+.color-text-light {
+  color: $colorTextLight;
+}
+
+.color-link {
+  color: $colorLink;
+}
+
+.color-error {
+  color: $colorError;
+}
+
+.color-info {
+  color: $colorInfo;
+}
+
+.color-success {
+  color: $colorSuccess;
+}
+
+.font-size-small {
+  font-size: $fontSizeSmall;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-nowrap {
+  display: inline-flex;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

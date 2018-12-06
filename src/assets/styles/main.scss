@@ -1,0 +1,132 @@
+@import '~/assets/styles/helpers.scss';
+@import '~/assets/styles/animations.scss';
+@import '~/assets/styles/transitions.scss';
+//@import 'vue-js-modal/dist/styles.css';
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: $fontWeightBold;
+  src: url('/fonts/WorkSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: $fontWeightNormal;
+  src: url('/fonts/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: $fontWeightSemiBold;
+  src: url('/fonts/WorkSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  src: url('/fonts/material-icons.woff2') format('woff2');
+}
+
+.material-icons {
+  direction: ltr;
+  display: inline-block;
+  font-family: 'Material Icons', sans-serif;
+  font-feature-settings: 'liga'; // Needed for IE Edge
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+html {
+  font-family: $fontFamily;
+  font-size: $fontSizeBody;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@include placeholder {
+  color: $colorPlaceholder;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: $colorBgBody;
+  color: $colorText;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: $lineHeightBody;
+}
+
+strong {
+  font-weight: $fontWeightSemiBold;
+}
+
+a {
+  color: $colorLink;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $maxPageWidth;
+  position: relative;
+}
+
+.page-padding {
+  padding-left: $pagePadding;
+  padding-right: $pagePadding;
+}
+
+.page-actions {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.content-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  ul {
+    list-style-type: disc;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    padding-left: 1.5em;
+
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+}

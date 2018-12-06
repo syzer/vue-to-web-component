@@ -1,0 +1,67 @@
+// Breakpoints
+$breakpointMicro: 360px;
+$breakpointMini: 400px;
+$breakpointSmall: 600px;
+$breakpointMedium: 1000px;
+
+$maxPageWidth: 900px;
+
+// Colors
+$colorSimpegoGreen: #0abb72;
+$colorSimpegoGreenAcid: #37f267;
+$colorSimpegoBlue: #0a1d69;
+$colorSimpegoBlueLight: #3b4a87;
+$colorAttention: #ff618b;
+$colorGradientSimpego: linear-gradient(
+  90deg,
+  $colorSimpegoGreenAcid,
+  $colorSimpegoGreen
+);
+
+$colorInfo: #0a1d69;
+$colorError: #ea5b5b;
+$colorWarning: #ff8a00;
+$colorSuccess: $colorSimpegoGreen;
+$colorText: #4b4b4b;
+$colorTextLight: #a6a6ab;
+$colorTextStrong: #060a39;
+$colorPlaceholder: $colorTextLight;
+$colorLink: $colorSimpegoGreen;
+
+$colorBgBody: #fbfaf9;
+$defaultBackground: white;
+$alternativeBackground: #eef2f5;
+
+$colorBorder: #e0e0e0;
+$colorBorderLight: #f2f1f1;
+$colorBorderStrong: #d5d5d5;
+
+$borderRadius: 5px;
+
+// Typography
+$lineHeightBody: 1.4;
+$fontSizeBody: 17px;
+$fontFamily: 'Work Sans', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+
+$fontWeightNormal: 400;
+$fontWeightSemiBold: 600;
+$fontWeightBold: 700;
+
+$fontSizeTiny: 0.75em;
+$fontSizeSmall: 0.85em;
+$fontSizeNormal: 1em;
+$fontSizeEmphasize: 1.15em;
+
+// Section
+$pagePadding: 4vw;
+
+// Miscellaneous
+$radius: 5px;
+
+$headerHeight: 3.6rem;
+
+$widthForm: 500px;
+
+$colorBgNavigation: $colorSimpegoBlueLight;
+$colorFgNavigation: white;
+$colorBgOverlay: rgba(0, 0, 0, 0.4);
