@@ -31,3 +31,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Problems
 - scss do now work well better use styled components
+escape encapsulation and can get wrong hashes for classes
+
+- [ ] https://vue-loader.vuejs.org/guide/css-modules.html#usage
